@@ -11,8 +11,9 @@ Virtuelna Realnost
 
 За основно снаоѓање во Unity ми помогнаа разни туторијали, додека од следниве научив конкретно како да се движам низ околината без input:	
 
-https://www.youtube.com/watch?v=fx7eGUCNSzI
 https://www.youtube.com/watch?v=kBTn2pGwZUk&list=PLHQUlKGE3pvz5-8aDjy6pral6ash4-JKu&index=4
+
+https://www.youtube.com/watch?v=ecYezSD4qPg
 
 Во проектот е искористена комбинација на двата.
 Движењето нанапред се одвива доколку главата (главната камера) ни е завртена барем 20 степени надолу, 
