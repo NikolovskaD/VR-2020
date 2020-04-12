@@ -21,3 +21,4 @@ https://www.youtube.com/watch?v=kBTn2pGwZUk&list=PLHQUlKGE3pvz5-8aDjy6pral6ash4-
 
 Сцената е комплетно мој дизајн, при што користев пакет со текстури и објекти од пустина, кој што го симнав од Asset Store.
 
+*Извршната верзија (.apk) се наоѓа во фолдерот builds.
