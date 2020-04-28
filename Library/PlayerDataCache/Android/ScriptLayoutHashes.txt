@@ -1,7 +1,8 @@
 Android
 PlayerPath?
-C:/Users/Nikolovska/Desktop/FINKI/vr/labs/VR lab1/builds/lab1.apk
+C:/Users/Nikolovska/Desktop/FINKI/vr/labs/VR lab1/builds/lab2.apk
 SceneListBegin?
+Assets/Scenes/Menu.unity
 Assets/Scenes/lab1.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -126,6 +127,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 ed916f285d5522ec5ceb6eccef8d0072 Assembly-CSharp.dll:GoogleVR.VideoDemo.SwitchVideos
 11182ae33aeebaa701c6f03cb7f19976 Assembly-CSharp.dll:.GvrKeyboard
+34cdac2641831d535c6c74a262878ed0 Assembly-CSharp.dll:.MainMenu
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 bf3913f0d6c694bf20e1d681c79a4993 Assembly-CSharp.dll:GoogleVR.Beta.Demos.DemoObjectController6DoF
