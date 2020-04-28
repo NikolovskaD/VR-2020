@@ -25,6 +25,7 @@ public class GVR_Button : MonoBehaviour
             if(gvrTimer >= totalTime)
             {
                 GVRClick.Invoke();
+                gvrTimer = 0;
             }
         }
 
