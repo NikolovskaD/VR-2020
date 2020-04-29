@@ -5,19 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class TimePassed : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    public float totalTime = 60f;
+    public float passedTime = 0f;
+
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > 60)
+        passedTime += Time.deltaTime;
+
+        if (passedTime >= totalTime)
         {
             Debug.Log("Game over");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            passedTime = 0;
         }
+
     }
 }
