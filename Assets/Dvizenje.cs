@@ -23,6 +23,8 @@ public class Dvizenje : MonoBehaviour
     //CharacterController script
     public CharacterController cc;
 
+    public int numOfCoins = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +80,17 @@ public class Dvizenje : MonoBehaviour
             //float curSpeed = speedB * Input.GetAxis("Vertical");
             //cc.SimpleMove(forward * curSpeed);
 
+        }
+
+
+    }
+
+    private void OnTriggerEnter(Collider coin)
+    {
+        if (coin.gameObject.CompareTag("Coin"))
+        {
+            Destroy(coin.gameObject);
+            numOfCoins++;
         }
     }
 }

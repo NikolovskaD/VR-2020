@@ -33,7 +33,7 @@ public class GVR_Button : MonoBehaviour
 
     public void GvrOn()
     {
-        Debug.Log("This is not the problem, entering");
+        //Debug.Log("This is not the problem, entering");
         gvrStatus = true;
     }
 
