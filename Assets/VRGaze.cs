@@ -35,6 +35,15 @@ public class VRGaze : MonoBehaviour
                 ResetToZero();
                 hit.transform.gameObject.GetComponent<Teleport>().TeleportPlayer();
             }
+
+            if (imgGaze.fillAmount == 1 && hit.transform.CompareTag("RotateCube") && gvrStatus)
+            {
+                //Debug.Log("Searching for Teleport");
+                ResetToZero();
+                hit.transform.gameObject.GetComponent<SpinCube>().ChangeSpin();
+                gvrStatus = false;
+            }
+
         }
     }
 
