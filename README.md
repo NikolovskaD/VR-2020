@@ -47,6 +47,29 @@ https://www.youtube.com/watch?v=ecYezSD4qPg
 
 ![](screenshots/endMenu.jpg)
 
+<br><br>
+
+# Домашна бр. 3
+
+<br> 
+
+За потребите на третата домашна работа, овозможени се 3 нови вида на интеракција во рамките на апликацијата. 
+<br>
+
+![](screenshots/game4.jpg)
+<br>
+- собирање на парички со помош на [collision detection](https://www.youtube.com/watch?v=kxKny1qWf5Q&list=PLiuDBLn1FK-QOmpA3Vs2JY0DVAj0GfFPn&index=7&t=0s)
+- [телепорт](https://www.youtube.com/watch?v=bmMaVTV8UqY&list=PLiuDBLn1FK-QOmpA3Vs2JY0DVAj0GfFPn&index=9) кој ни овозможува да се телепортираме на одредено место доколку гледаме во објектот доволно долго (2 секунди)
+- [промена на смерот на ротација на коцка](https://www.youtube.com/watch?v=bmMaVTV8UqY&list=PLiuDBLn1FK-QOmpA3Vs2JY0DVAj0GfFPn&index=9) доколку ја гледаме коцката доволно долго (2 секунди)
+
+<br>
+
+![](screenshots/teleport.jpg) 
+
+<br>
+
+![](screenshots/rotatingCube.jpg)
+
 <br> <br>
 
 *Извршните верзии од соодветните домашни (.apk) се наоѓаат во фолдерот builds.*
