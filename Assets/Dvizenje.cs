@@ -25,11 +25,16 @@ public class Dvizenje : MonoBehaviour
 
     public int numOfCoins = 0;
 
+    public AudioSource audioSrc;
+    public AudioClip coinCollectionSound;
+
     // Start is called before the first frame update
     void Start()
     {
         //Find the CharacterController
         cc = GetComponentInParent<CharacterController>();
+
+        audioSrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -88,8 +93,9 @@ public class Dvizenje : MonoBehaviour
     private void OnTriggerEnter(Collider coin)
     {
         if (coin.gameObject.CompareTag("Coin"))
-        {
+        {           
             Destroy(coin.gameObject);
+            audioSrc.PlayOneShot(coinCollectionSound, 0.6F);
             numOfCoins++;
         }
     }
