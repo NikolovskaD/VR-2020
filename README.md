@@ -72,6 +72,23 @@ https://www.youtube.com/watch?v=ecYezSD4qPg
 
 <br> <br>
 
+# Домашна бр. 4
+
+<br>
+
+Во домашната број 4 во проектот се додадени 2 вида звуци: 2D и 3D. Додадените аудио ефекти се:
+- звук при [собирање на паричка](https://www.youtube.com/watch?v=yE0JdtVTnVk)
+- [позадински](https://www.youtube.com/watch?v=mqomJmsB-yI) звук
+- [3D звук](https://www.youtube.com/watch?v=M88jDVfu6-Q&list=PLiuDBLn1FK-QOmpA3Vs2JY0DVAj0GfFPn&index=7) на ветер, чија јачина се зголемува/намалува во однос на оддалеченоста на играчот од плавата коцка
+
+Користен е еден AudioSource за позадинската музика и друг за собирањето парички, додека за 3D е користен ResonanceAudio. <br><br>
+Звукот за собирање парички е пронајден во Unity Asset Store, останатите аудио фајлови се преземени од следните линкови:
+- [ветер](https://www.noiseforfun.com/2014-sound-effects/wind-gust/)
+- [позадинска мелодија](https://opengameart.org/content/desert-calmness-and-fighting-orchestral-141)
+
+
+<br> <br>
+
 *Извршните верзии од соодветните домашни (.apk) се наоѓаат во фолдерот builds.*
 
 <br> <br>
