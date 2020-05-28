@@ -71,6 +71,7 @@
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
+    <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
     <Compile Include="Assets\ResonanceAudio\Editor\ResonanceAudioBuildProcessor.cs" />
     <Compile Include="Assets\ResonanceAudio\Editor\ResonanceAudioListenerEditor.cs" />
     <Compile Include="Assets\ResonanceAudio\Editor\ResonanceAudioMaterialMapEditor.cs" />

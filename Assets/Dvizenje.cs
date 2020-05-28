@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Dvizenje : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class Dvizenje : MonoBehaviour
 
     public AudioSource audioSrc;
     public AudioClip coinCollectionSound;
+
+    public Text scoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -97,6 +100,7 @@ public class Dvizenje : MonoBehaviour
             Destroy(coin.gameObject);
             audioSrc.PlayOneShot(coinCollectionSound, 0.6F);
             numOfCoins++;
+            scoreText.text = "Score: " + (numOfCoins*50).ToString();
         }
     }
 }
