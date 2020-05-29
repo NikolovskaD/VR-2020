@@ -86,6 +86,18 @@ https://www.youtube.com/watch?v=ecYezSD4qPg
 - [ветер](https://www.noiseforfun.com/2014-sound-effects/wind-gust/)
 - [позадинска мелодија](https://opengameart.org/content/desert-calmness-and-fighting-orchestral-141)
 
+<br> <br>
+
+# Домашна бр. 5
+
+<br>
+
+За потребите на оваа домашна задача додадени се:
+- визуелна репрезентација на веќе постоечкиот ситстем за пресметување на поени (50п за секоја соберена паричка) 
+- Time Bar кој ни го покажува изминатото време (од дадените 60 секунди кои ги имаме дозволени во главната сцена) направена со помош на LeanTween
+
+![](screenshots/lab5.1.png)
+![](screenshots/lab5.2.png)
 
 <br> <br>
 
